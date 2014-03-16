@@ -1,4 +1,7 @@
 Changeversion::Application.routes.draw do
+  get 'test', to: 'test#test'
+  get 'test2', to: 'test#test2'
+  get 'coleto', to: 'test3#prueba'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
